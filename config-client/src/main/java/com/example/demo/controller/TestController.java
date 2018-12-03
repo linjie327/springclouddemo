@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @Value("${foo}")
-    String foo;
-    @RequestMapping(value = "/hi")
-    public String hi(){
-        return foo;
-    }
+//    @Value("${foo}")
+//    String foo;
+//    @RequestMapping(value = "/hi")
+//    public String hi(){
+//        return foo;
+//    }
 }
